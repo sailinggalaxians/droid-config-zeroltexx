@@ -1,21 +1,21 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for jfltexx HW Adaptation
-Name: jolla-hw-adaptation-jfltexx
+Description: Pattern with packages for zeroltexx HW Adaptation
+Name: jolla-hw-adaptation-zeroltexx
 Requires:
 - pattern:jolla-hw-adaptation-hybris
 - pattern:jolla-hw-adaptation-hybris-droid-vibrator
-- pattern:jolla-ui-configuration-jfltexx
+- pattern:jolla-ui-configuration-zeroltexx
 
-- droid-hal-jfltexx
-- droid-hal-jfltexx-img-boot
-- droid-hal-jfltexx-kernel-modules
-- droid-config-jfltexx-sailfish
-- droid-config-jfltexx-pulseaudio-settings
-- droid-config-jfltexx-policy-settings
-- droid-config-jfltexx-preinit-plugin
-- droid-hal-version-jfltexx
+- droid-hal-zeroltexx
+- droid-hal-zeroltexx-img-boot
+- droid-hal-zeroltexx-kernel-modules
+- droid-config-zeroltexx-sailfish
+- droid-config-zeroltexx-pulseaudio-settings
+- droid-config-zeroltexx-policy-settings
+- droid-config-zeroltexx-preinit-plugin
+- droid-hal-version-zeroltexx
 
 - pulseaudio-modules-droid
 # for audio recording to work:
@@ -91,4 +91,4 @@ Requires:
 # Adding bluetooth dependency
 - brcm-patchram-plus
 
-Summary: Jolla HW Adaptation jfltexx
+Summary: Jolla HW Adaptation zeroltexx
