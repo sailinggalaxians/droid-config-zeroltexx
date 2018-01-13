@@ -1,10 +1,10 @@
 # These and other macros are documented in ../droid-configs-device/droid-configs.inc
 
-%define device jfltexx
+%define device zeroltexx
 %define vendor samsung
 
 %define vendor_pretty Samsung
-%define device_pretty Galaxy S4 intl LTE
+%define device_pretty Galaxy S6 Edge intl LTE
 
 %define dcd_path ./
 
@@ -15,4 +15,3 @@
 %define have_modem 1
 
 %include droid-configs-device/droid-configs.inc
-
